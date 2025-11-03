@@ -626,8 +626,7 @@
         </button>
         <span class="music-title">Nắng Ấm Trong Tim - Duongg</span>
         <audio id="bgMusic" loop>
-            <source src="/nhac/nang-am-trong-tim-duongg.mp3" type="audio/mpeg">
-            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            <source src="nang-am-trong-tim-duongg.mp3" type="audio/mpeg">
         </audio>
     </div>
 
@@ -910,7 +909,7 @@
                 bgMusic.play().catch(e => {
                     console.log("Không thể phát nhạc:", e);
                     // Nếu không thể phát nhạc từ đường dẫn cục bộ, thử phát từ nguồn dự phòng
-                    if (bgMusic.src.includes('binhyen.mp3')) {
+                    if (bgMusic.src.includes('nang-am-trong-tim-duongg.mp3')) {
                 
                     }
                 });
